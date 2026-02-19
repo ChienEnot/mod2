@@ -91,3 +91,25 @@ button {
 button:hover {
 	background-color: #005fa3;
 }
+
+.dark-mode {
+	background-color:#222;
+	color:white;
+}
+
+.dark-mode .card {
+	background-color:#454647;
+}
+
+.dark-mode th,td {
+	border:1px solid #222;
+	padding: 8px;
+}
+
+.dark-mode th {
+	background-color:#86888a;
+}
+
+.hidden {
+	display:none;
+}

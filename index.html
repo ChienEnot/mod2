@@ -20,6 +20,7 @@ table, th, td {
 			<h1>Chien Maureen M. Enot</h1>
 			<p> IT Student | Web Systems and Technologies </p>
 		</section>
+		<button id="themeToggle">Toggle Dark Mode</button>
 	</header>
 	
 	<div class="container">
@@ -35,7 +36,8 @@ table, th, td {
 			</p>
 		</section>
 		
-		<section class="card">
+		<button id="toggleSkills">Show/Hide Skills</button>
+		<section class="card" id="skillsSection">
 			<h2>Skills</h2>
 				<ul>
 					<li>HTML</li>
@@ -101,10 +103,10 @@ table, th, td {
 		<section class="card">
 			<h2>Contact Me</h2>
 			<form>
-				<input type="text" placeholder="Name"><br><br>
-				<input type="email" placeholder="Email"><br><br>
+				<input type="text" id="name"  placeholder="Name"><br><br>
+				<input type="email" id="email" placeholder="Email"><br><br>
 				<textarea placeholder="Message"></textarea><br><br>
-				<button type="submit">Send</button>
+				<button type="submit" id="submitBtn">Send</button>
 			</form>
 		</section>
 	</main>
@@ -113,5 +115,6 @@ table, th, td {
 	<footer>
 		<p>&copy; 2026 Chien Enot. All rights reserved. </p>
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 </html>
